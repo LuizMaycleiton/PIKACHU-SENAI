@@ -105,4 +105,17 @@ h1::before{
         font-size: 20vw;
         transform: translateY(0%);
     }
+
+        .hero-container{
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .hero-container div{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 500px;
+    }
 }
