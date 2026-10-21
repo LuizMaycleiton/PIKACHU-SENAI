@@ -73,3 +73,25 @@ h1::before{
 .hero-container p{
     display: none;
 }
+
+.hero-container a{
+    width: 100%;
+    height: 100px;
+    text-decoration: none;
+    background-color: var(--marrom);
+    color: white;
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}   
+
+@media (min-width: 768px){
+    .hero-container p{
+        display: block;
+        font-size: 1.8rem;
+        text-align: center;
+        color: var(--color-secondary);
+    }
+}
