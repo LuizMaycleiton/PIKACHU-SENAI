@@ -92,6 +92,12 @@ h1::before{
         display: block;
         font-size: 1.8rem;
         text-align: center;
-        color: var(--color-secondary);
+        color: var(--marrom);
+    }
+}
+
+@media (min-width: 1024px){
+    body{
+        padding: 32px 70px;
     }
 }
