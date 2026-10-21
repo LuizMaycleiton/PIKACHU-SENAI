@@ -87,6 +87,10 @@ h1::before{
     gap: 1rem;
 }   
 
+footer{
+    display: none;
+}
+
 @media (min-width: 768px){
     .hero-container p{
         display: block;
@@ -140,5 +144,10 @@ h1::before{
         height: 60vh;
         top: 60%;
         left: 49%;
+    }
+        footer{
+        display: block;
+        text-align: center;
+        color: var(--color-secondary);
     }
 }
