@@ -134,4 +134,11 @@ h1::before{
     .hero-container a{
         width: 400px;
     }
+
+        .pikachu{
+        width: auto;
+        height: 60vh;
+        top: 60%;
+        left: 49%;
+    }
 }
