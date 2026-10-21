@@ -1,0 +1,12 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+:root{
+    --amarelo: #F5CF06;
+    --marrom: #8E4106;
+    --branco: #FFFFFF;
+    --fonte: 'Righteous', sans-serif;
+}
