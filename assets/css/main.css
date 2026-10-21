@@ -118,4 +118,20 @@ h1::before{
         justify-content: center;
         width: 500px;
     }
+
+        .hero-container h2{
+        font-size: 60px;
+        text-align: left;
+        font-weight: 200;
+    }
+
+    .hero-container p{
+        text-align: left;
+        font-weight: 100;
+        font-size: 20px;
+    }
+
+    .hero-container a{
+        width: 400px;
+    }
 }
