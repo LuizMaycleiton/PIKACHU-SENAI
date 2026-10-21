@@ -20,6 +20,9 @@ header{
     width: 40px;
     height: auto;
 }
+
+
+
 main{
     flex-grow: 1;
     display: flex;
